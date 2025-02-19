@@ -14,12 +14,11 @@ tasks = [
 userChoice = 0
 print('Welcome to to-do list app!\n')
 while userChoice != 4:
-    print('Choose an option:\n')
     print('(1) Read out your to do list')
     print('(2) Remove an item')
     print('(3) Add an item')
     print('(4) Exit app')
-    userChoice = int(input())
+    userChoice = int(input('Choose an option: '))
     
     if userChoice == 1:
         print()
@@ -27,7 +26,7 @@ while userChoice != 4:
     if userChoice == 2:
         print()
         print(fancyList(tasks))
-        remItem = int(input('What item would you like to remove? (Type a number)'))-1
+        remItem = int(input('What item would you like to remove? (Type a number )'))-1
         del tasks[remItem]
     if userChoice == 3:
         print()
