@@ -26,7 +26,7 @@ while userChoice != 4:
     if userChoice == 2:
         print()
         print(fancyList(tasks))
-        remItem = int(input('What item would you like to remove? (Type a number )'))-1
+        remItem = int(input('What item would you like to remove? (Type a number) '))-1
         del tasks[remItem]
     if userChoice == 3:
         print()
