@@ -29,4 +29,5 @@ while userChoice != 4:
     print('(2) Remove an item')
     print('(3) Add an item')
     print('(4) Exit app')
-    listMethods(tasks, int(input('Choose an option: ')))
+    userChoice = int(input('Choose an option: '))
+    listMethods(tasks, userChoice)
