@@ -12,10 +12,10 @@ def listMethods(lst, choice):
             print(f"{element}. {lst[element - 1]}")
             element +=1
         remItem = int(input('What item would you like to remove? (Type a number) '))-1
-        del tasks[remItem]
+        del lst[remItem]
     elif choice == 3:
         print()
-        tasks.append(input("What would you like to add? "))
+        lst.append(input("What would you like to add? "))
     
 tasks = [
     "Buy groceries",
