@@ -1,10 +1,12 @@
 def listMethods(lst, choice):
     if choice == 1:
+        print()
         element = 1
         for i in range(len(lst)):
             print(f"{element}. {lst[element - 1]}")
             element +=1
     elif choice == 2:
+        print()
         element = 1
         for i in range(len(lst)):
             print(f"{element}. {lst[element - 1]}")
@@ -23,8 +25,9 @@ tasks = [
     "Go for a run"
 ]
 userChoice = 0
-print('Welcome to to-do list app!\n')
+print('Welcome to to-do list app!')
 while userChoice != 4:
+    print()
     print('(1) Read out your to do list')
     print('(2) Remove an item')
     print('(3) Add an item')
