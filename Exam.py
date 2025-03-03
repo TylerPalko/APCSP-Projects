@@ -9,7 +9,7 @@ def options(item, burgers, meals, drinks):
         print(f"\nYou ordered a {burgers[burgerType -1]}")
 
     elif item == 2:
-        print("\nYou ordered frys!")
+        print("\nYou ordered Frys!")
 
     elif item == 3: 
         print()
@@ -45,8 +45,8 @@ def options(item, burgers, meals, drinks):
 
 
 menu = ["Burger", "Frys", "Meal", "Drink"]
-burgers = ["Cheeseburger", "Hamburger", "Chicken Sandwhich (Halal)"]
-meals = ["Cheeseburger Meal", "Hamburger Meal", "Chicken Sandwhich meal (Halal)"]
+burgers = ["Cheeseburger", "Hamburger", "Chicken Sandwich (Halal)"]
+meals = ["Cheeseburger Meal", "Hamburger Meal", "Chicken Sandwich meal (Halal)"]
 drinks = ["Water", "Cola", "Sprite", "Orange Soda", "Diet Cola"]
 
 
