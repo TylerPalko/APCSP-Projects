@@ -20,8 +20,8 @@ def options(item, burgers, meals, drinks):
         mealType = int(input("Which meal do you want? "))
         print()
         element = 1
-        for i in range(len(meals)):
-            print(f"{element}. {meals[element - 1]}")
+        for i in range(len(drinks)):
+            print(f"{element}. {drinks[element - 1]}")
             element +=1
         drinkType = int(input("What drink do you want? "))
         print(f"\nYou ordered a {meals[mealType -1]} with a {drinks[drinkType-1]}")
