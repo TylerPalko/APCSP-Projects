@@ -40,7 +40,7 @@ def options(item, burgers, meals, drinks):
     if item < 5 and item > 0:
         print('Your order will be out shortly!')
 
-    elif item > 5 and item < 0:
+    elif item > 5 or item < 0:
         print('\nPlease choose a valid item!')
 
 
